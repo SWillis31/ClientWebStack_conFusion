@@ -12,4 +12,11 @@ $(document).ready(function(){
             $("#carouselButton").children("span").addClass('fa-pause');
         }
     });
+    $("#login_button").on('click', function(){
+        $("#loginModal").modal('toggle');
+    })
+
+    $("#reservation_button").on('click', function(){
+        $("#reservation_modal").modal('toggle');
+    })
 });
